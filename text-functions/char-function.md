@@ -2,7 +2,7 @@
 
 CHAR berfungsi untuk mengembalikan karakter yang ditentukan oleh angka. Gunakan CHAR untuk menerjemahkan nomor halaman kode yang mungkin diperoleh dari file tipe komputer lain menjadi karakter.
 
-### Sintaks
+## Sintaks
 
 ```text
 CHAR(number)
@@ -16,7 +16,7 @@ CHAR(number)
 Excel Online hanya mendukung CHAR\(9\), CHAR\(10\), CHAR\(13\), dan CHAR\(32\) dan di atasnya.
 {% endhint %}
 
-### Contoh
+## Contoh
 
 ![](../.gitbook/assets/image%20%2819%29.png)
 

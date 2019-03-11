@@ -2,7 +2,7 @@
 
 Fungsi EXACT berfungsi untuk membandingkan dua string teks dan akan mengembalikan TRUE jika kedua string itu sama persis, jika tidak akan mengembalikan FALSE. EXACT peka huruf besar kecil tapi mengabaikan perbedaan pemformatan.
 
-### Sintaks
+## Sintaks
 
 ```text
 EXACT(text1, text2)
@@ -13,7 +13,7 @@ EXACT(text1, text2)
 | text1 | String teks pertama. |
 | text2 | String teks kedua. |
 
-### Contoh
+## Contoh
 
 ![](../.gitbook/assets/image%20%2828%29.png)
 

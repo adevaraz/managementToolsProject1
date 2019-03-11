@@ -8,7 +8,7 @@ LENB berfungsi untuk mengembalikan jumlah byte yang digunakan untuk menunjukkan 
 LENB hanya menghitung 2 byte per karakter ketika sebuah bahasa DBCS diatur sebagai bahasa default. Jika tidak, maka LENB berlaku sama seperti LEN, menghitung 1 byte per karakter.
 {% endhint %}
 
-### Sintaks
+## Sintaks
 
 ```text
 LEN(teks)
@@ -22,13 +22,13 @@ LENB(teks)
 | :--- | :--- |
 | text | Teks yang panjangnya ingin Anda cari. |
 
-### Contoh
+## Contoh
 
-#### LEN
+### LEN
 
 ![](../.gitbook/assets/image.png)
 
-#### LENB
+### LENB
 
 ![](../.gitbook/assets/image%20%2820%29.png)
 

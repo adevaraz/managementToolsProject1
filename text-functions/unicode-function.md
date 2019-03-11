@@ -10,7 +10,7 @@ UNICODE(text)
 | :--- | :--- |
 | text | Teks adalah karakter yang Anda inginkan nilai Unicode-nya. |
 
-### Contoh
+## Contoh
 
 ![](../.gitbook/assets/image%20%282%29.png)
 

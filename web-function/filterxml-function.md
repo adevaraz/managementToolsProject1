@@ -1,8 +1,8 @@
 # FILTERXML Function
 
-FILTERXML berfungsi untuk mengembalikan data tertentu dari konten XML dengan menggunakan XPath yang ditentukan. 
+FILTERXML berfungsi untuk mengembalikan data tertentu dari konten XML dengan menggunakan XPath yang ditentukan.
 
-### Sintaks
+## Sintaks
 
 ```text
 FILTERXML(xml, xpath)
@@ -10,6 +10,6 @@ FILTERXML(xml, xpath)
 
 | Argumen | Fungsi |
 | :--- | :--- |
-| **Xml**     | String dalam format XML yang valid. |
+| **Xml** | String dalam format XML yang valid. |
 | XPath | String dalam format XPath standar. |
 

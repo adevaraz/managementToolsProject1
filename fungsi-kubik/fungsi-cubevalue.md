@@ -1,33 +1,32 @@
 # Fungsi CUBEVALUE
 
-### Deskripsi
+## Deskripsi
 
 Mengembalikan nilai agregat dari kubus.
 
-### Sintaks
+## Sintaks
 
 CUBEVALUE\(connection, \[member\_expression1\], \[member\_expression2\], …\)
 
 Sintaks fungsi CUBEVALUE memiliki argumen berikut:
 
-*  **Connection**    Diperlukan. String teks nama koneksi ke kubus.
-*  **Member\_expression**    Opsional. Sebuah string teks ekspresi multidimensi \(MDX, multidimensional expression\) yang mengevaluasi anggota atau rangkap dalam kubus. Alternatifnya, member\_expression dapat berupa sebuah set yang ditentukan dengan fungsi CUBESET. Gunakan member\_expression sebagai pemotong untuk menentukan bagian kubus di mana nilai agregat dikembalikan. Jika tidak ada ukuran yang ditentukan dalam member\_expression, maka ukuran default untuk kubus tersebut akan digunakan.
+* **Connection**    Diperlukan. String teks nama koneksi ke kubus.
+* **Member\_expression**    Opsional. Sebuah string teks ekspresi multidimensi \(MDX, multidimensional expression\) yang mengevaluasi anggota atau rangkap dalam kubus. Alternatifnya, member\_expression dapat berupa sebuah set yang ditentukan dengan fungsi CUBESET. Gunakan member\_expression sebagai pemotong untuk menentukan bagian kubus di mana nilai agregat dikembalikan. Jika tidak ada ukuran yang ditentukan dalam member\_expression, maka ukuran default untuk kubus tersebut akan digunakan.
 
-### Keterangan
+## Keterangan
 
 * Bila fungsi CUBEVALUE mengevaluasi, fungsi ini sementara akan menampilkan pesan "\#GETTING\_DATA…" dalam sel sebelum semua data diambil.
 * Jika referensi sel digunakan untuk member\_expression, dan referensi sel berisi fungsi CUBE, maka member\_expression menggunakan ekspresi MDX untuk item dalam sel referensi, dan bukan nilai yang ditampilkan dalam sel referensi.
 * Jika nama koneksi bukan merupakan koneksi buku kerja valid yang disimpan dalam buku kerja, CUBEVALUE akan mengembalikan nilai kesalahan \#NAME?. Jika server Pemrosesan Analitik Online \(OLAP, Online Analytical Processing\) tidak bekerja, tidak tersedia, atau mengembalikan pesan kesalahan, maka CUBEVALUE akan mengembalikan nilai kesalahan \#NAME?.
 * Jika setidaknya satu elemen dalam rangkap tidak valid, CUBEVALUE akan mengembalikan nilai kesalahan \#VALUE!.
 * CUBEVALUE mengembalikan nilai kesalahan \#N/A bila:
+* Sintaks member\_expression salah.
+* Anggota yang ditentukan oleh member\_expression tidak terdapat di dalam kubus.
+* Rangkap tidak valid karena tidak terdapat irisan untuk nilai-nilai yang ditentukan. \(Ini dapat terjadi pada beberapa elemen dari hierarki yang sama.\)
+* Set berisi setidaknya satu anggota dengan dimensi yang berbeda dibandingkan anggota lainnya.
+* CUBEVALUE dapat mengembalikan nilai kesalahan \#N/A jika Anda mereferensikan objek berbasis sesi, seperti anggota terhitung atau set bernama, dalam PivotTable saat berbagi koneksi, dan PivotTable tersebut dihapus atau Anda mengonversi PivotTable ke rumus. \(Pada tab **Opsi**, di grup **Alat**, klik **Alat OLAP**, lalu klik **Konversi ke Rumus**.\)
 
-1. Sintaks member\_expression salah.
-2. Anggota yang ditentukan oleh member\_expression tidak terdapat di dalam kubus.
-3. Rangkap tidak valid karena tidak terdapat irisan untuk nilai-nilai yang ditentukan. \(Ini dapat terjadi pada beberapa elemen dari hierarki yang sama.\)
-4. Set berisi setidaknya satu anggota dengan dimensi yang berbeda dibandingkan anggota lainnya.
-5.  CUBEVALUE dapat mengembalikan nilai kesalahan \#N/A jika Anda mereferensikan objek berbasis sesi, seperti anggota terhitung atau set bernama, dalam PivotTable saat berbagi koneksi, dan PivotTable tersebut dihapus atau Anda mengonversi PivotTable ke rumus. \(Pada tab **Opsi**, di grup **Alat**, klik **Alat OLAP**, lalu klik **Konversi ke Rumus**.\)
-
- **Masalah: Nilai null dikonversi ke string panjang-nol**
+  **Masalah: Nilai null dikonversi ke string panjang-nol**
 
 Dalam ,Excel jika sel tidak memiliki data, karena Anda tidak pernah mengubahnya atau Anda telah menghapus kontennya, maka sel akan berisi nilai kosong. Dalam banyak sistem database, nilai kosong disebut sebagai nilai Null. Nilai kosong atau Null secara literal berarti "Tidak ada nilai." Namun, sebuah rumus bisa tidak pernah mengembalikan string kosong atau nilai Null. Rumus selalu mengembalikan satu dari tiga nilai berikut: nilai angka; nilai teks, yang mungkin berupa string panjang-nol, atau nilai kesalahan, seperti \#NUM! atau \#VALUE.
 
@@ -45,7 +44,7 @@ Alternatifnya, jika Anda dapat menumpuk fungsi CUBEVALUE dalam syarat IF yang me
 
 Perhatikan bahwa fungsi SUM tidak mensyaratkan uji untuk string panjang-nol ini karena secara otomatis mengabaikan string panjang-nol ketika menghitung nilai yang dikembalikan.
 
-### Contoh
+## Contoh
 
 =CUBEVALUE\("Penjualan","\[Ukuran\].\[Keuntungan\]","\[Waktu\].\[2004\]","\[Semua Produk\].\[Minuman\]"\)
 

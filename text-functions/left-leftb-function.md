@@ -4,7 +4,7 @@ LEFT berfungsi untuk mengembalikan karakter pertama atau beberapa karakter dalam
 
 LEFTB berfungsi untuk mengembalikan karakter pertama atau beberapa karakter dalam string teks, berdasarkan jumlah byte yang Anda tentukan
 
-### Sintaks
+## Sintaks
 
 ```text
 LEFT(teks, [num_chars])
@@ -20,13 +20,13 @@ LEFTB(teks, [num_bytes])
 | num\_chars | Opsional. Tentukan jumlah karakter yang ingin diekstrak oleh LEFT. |
 | num\_bytes | Tentukan jumlah karakter yang ingin diekstrak oleh LEFTB, berdasarkan byte. |
 
-### Contoh
+## Contoh
 
-#### LEFT
+### LEFT
 
 ![](../.gitbook/assets/image%20%283%29.png)
 
-#### LEFTB
+### LEFTB
 
 ![](../.gitbook/assets/image%20%284%29.png)
 

@@ -4,7 +4,7 @@ MID berfungsi untuk mengembalikan jumlah karakter tertentu dari sebuah string te
 
 MIDB berfungsi untuk mengembalikan jumlah karakter tertentu dari sebuah string teks, dimulai dari posisi yang Anda tentukan, berdasarkan jumlah byte yang Anda tentukan.
 
-### Sintaks
+## Sintaks
 
 ```text
 MID(text, start_num, num_chars)
@@ -21,7 +21,7 @@ MIDB(text, start_num, num_bytes)
 | num\_chars | Menentukan jumlah karakter yang ingin dikembalikan oleh MID. |
 | num\_bytes | Menentukan jumlah karakter yang ingin dikembalikan oleh MIDB dari teks, dalam byte. |
 
-### Contoh
+## Contoh
 
 ![](../.gitbook/assets/image%20%2822%29.png)
 

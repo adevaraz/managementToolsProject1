@@ -1,18 +1,16 @@
 # Fungsi ISNUMBER
 
-
-
-### Deskripsi
+## Deskripsi
 
 Masing-masing fungsi ini, secara kolektif disebut fungsi **IS**, memeriksa nilai tertentu dan mengembalikan TRUE atau FALSE bergantung pada hasilnya. Misalnya, fungsi **ISBLANK** mengembalikan nilai logika TRUE jika argumen nilainya merupakan referensi ke sel kosong; jika tidak maka fungsi ini mengembalikan FALSE.
 
 Anda bisa menggunakan fungsi **IS** untuk mendapatkan informasi tentang sebuah nilai sebelum melakukan perhitungan atau tindakan lainnya dengannya. Misalnya, Anda dapat menggunakan fungsi **ISERROR** bersama fungsi **IF** untuk melakukan tindakan berbeda jika timbul kesalahan:
 
- **=** **IF\(** **ISERROR\(A1\), "An error occurred.", A1 \* 2\)**
+**=** **IF\(** **ISERROR\(A1\), "An error occurred.", A1 \* 2\)**
 
 Rumus ini memeriksa apakah ada kondisi kesalahan di A1. Jika ada, maka fungsi **IF** mengembalikan pesan "Terjadi kesalahan." Jika tidak ada kesalahan, maka fungsi **IF** melakukan perhitungan A1\*2.
 
-### Sintaks
+## Sintaks
 
 ISBLANK\(nilai\)
 
@@ -34,11 +32,9 @@ ISTEXT\(nilai\)
 
 Sintaks fungsi **IS** memiliki argumen berikut:
 
-*  **nilai**    Diperlukan. Nilai yang ingin Anda uji. Argumen nilai dapat berupa kesalahan, nilai logika, teks, angka, atau nilai referensi kosong \(sel kosong\), atau nama yang merujuk ke salah satu dari ini.
+* **nilai**    Diperlukan. Nilai yang ingin Anda uji. Argumen nilai dapat berupa kesalahan, nilai logika, teks, angka, atau nilai referensi kosong \(sel kosong\), atau nama yang merujuk ke salah satu dari ini.
 
-
-
-|  **Fungsi** |  **Mengembalikan TRUE jika** |
+| **Fungsi** | **Mengembalikan TRUE jika** |
 | :--- | :--- |
 | ISBLANK | Nilai merujuk ke sel kosong. |
 | ISERR | Nilai merujuk ke nilai kesalahan kecuali \#N/A. |
@@ -50,20 +46,18 @@ Sintaks fungsi **IS** memiliki argumen berikut:
 | ISREF | Nilai yang merujuk ke sebuah referensi. |
 | ISTEXT | Nilai yang merujuk ke teks. |
 
-### Keterangan
+## Keterangan
 
-*  Argumen nilai fungsi **IS** tidak dikonversi. Nilai numerik yang berada di antara tanda kutip ganda diperlakukan sebagai teks. Misalnya, pada banyak fungsi lain di mana angka diperlukan, nilai teks "19" dikonversikan menjadi angka 19. Akan tetapi, di dalam rumus **ISNUMBER\("19"\)**, "19" tidak dikonversikan dari nilai teks menjadi nilai angka, dan fungsi **ISNUMBER** mengembalikan FALSE.
-*  Fungsi **IS** berguna dalam rumus-rumus untuk menguji hasil dari sebuah perhitungan. Ketika dikombinasikan dengan fungsi **IF**, fungsi-fungsi ini menyediakan metode untuk menemukan kesalahan di dalam rumus \(lihat contoh-contoh berikut ini\).
+* Argumen nilai fungsi **IS** tidak dikonversi. Nilai numerik yang berada di antara tanda kutip ganda diperlakukan sebagai teks. Misalnya, pada banyak fungsi lain di mana angka diperlukan, nilai teks "19" dikonversikan menjadi angka 19. Akan tetapi, di dalam rumus **ISNUMBER\("19"\)**, "19" tidak dikonversikan dari nilai teks menjadi nilai angka, dan fungsi **ISNUMBER** mengembalikan FALSE.
+* Fungsi **IS** berguna dalam rumus-rumus untuk menguji hasil dari sebuah perhitungan. Ketika dikombinasikan dengan fungsi **IF**, fungsi-fungsi ini menyediakan metode untuk menemukan kesalahan di dalam rumus \(lihat contoh-contoh berikut ini\).
 
-### Contoh
+## Contoh
 
-#### Contoh 1
-
-
+### Contoh 1
 
 Salin contoh data di dalam tabel berikut ini dan tempel ke dalam sel A lembar kerja Excel yang baru. Agar rumus menunjukkan hasil, pilih datanya, tekan F2, lalu tekan Enter. Jika perlu, Anda bisa menyesuaikan lebar kolom untuk melihat semua data.
 
-|  **Rumus** |  **Deskripsi** |  **Hasil** |
+| **Rumus** | **Deskripsi** | **Hasil** |
 | :--- | :--- | :--- |
 | =ISLOGICAL\(TRUE\) | Memeriksa apakah TRUE adalah nilai logika | TRUE |
 | =ISLOGICAL\("TRUE"\) | Memeriksa apakah "TRUE" adalah nilai logika | FALSE |
@@ -71,20 +65,18 @@ Salin contoh data di dalam tabel berikut ini dan tempel ke dalam sel A lembar ke
 | =ISREF\(G8\) | Memeriksa apakah G8 adalah referensi valid | TRUE |
 | =ISREF\(XYZ1\) | Memeriksa apakah XYZ1 adalah referensi valid | FALSE |
 
-#### Contoh 2
-
-
+### Contoh 2
 
 Salin contoh data di dalam tabel berikut ini dan tempel ke dalam sel A lembar kerja Excel yang baru. Agar rumus menunjukkan hasil, pilih datanya, tekan F2, lalu tekan Enter. Jika perlu, Anda bisa menyesuaikan lebar kolom untuk melihat semua data.
 
-|  **Data** |  |  |
+| **Data** |  |  |
 | :--- | :--- | :--- |
 | Emas |  |  |
 | Wilayah1 |  |  |
 | \#REF! |  |  |
 | 330,92 |  |  |
 | \#N/A |  |  |
-|  **Rumus** |  **Deskripsi** |  **Hasil** |
+| **Rumus** | **Deskripsi** | **Hasil** |
 | =ISBLANK\(A2\) | Memeriksa apakah sel A2 kosong. | FALSE |
 | =ISERROR\(A4\) | Memeriksa apakah nilai dalam sel A4, \#REF!, adalah kesalahan. | TRUE |
 | =ISNA\(A4\) | Memeriksa apakah nilai dalam sel A4, \#REF!, adalah kesalahan \#N/A. | FALSE |

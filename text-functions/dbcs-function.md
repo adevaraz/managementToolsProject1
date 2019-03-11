@@ -6,7 +6,7 @@ DBCS berfungsi untuk mengubah huruf bahasa Inggris atau katakana dengan lebar se
 Fungsi ini hanya bisa digunakan di Excel untuk Office 365, Excel untuk Office 365 untuk Mac, Excel 2019, Excel 2016, Excel 2019 untuk Mac, Excel 2013, Excel 2016 untuk Mac, Excel untuk Mac 2011, Excel Online Excel untuk iPad, Excel untuk iPhone, Excel untuk tablet Android, Excel untuk ponsel Android, dan Excel Mobile
 {% endhint %}
 
-### Sintaks
+## Sintaks
 
 ```text
 DBCS(text)

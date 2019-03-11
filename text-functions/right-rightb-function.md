@@ -4,7 +4,7 @@
 
 `RIGHT` berfungsi untuk mengembalikan karakter terakhir atau karakter dalam string teks, berdasarkan jumlah byte yang Anda tentukan.
 
-### Sintaks
+## Sintaks
 
 ```text
 RIGHT(text,[num_chars])
@@ -20,7 +20,7 @@ RIGHTB(text,[num_bytes])
 | num\_chars | Opsional. Tentukan jumlah karakter yang ingin diekstrak oleh `RIGHT`. |
 | num\_bytes | Tentukan jumlah karakter yang ingin diekstrak oleh `RIGHTB`, berdasarkan byte. |
 
-### `Contoh`
+## `Contoh`
 
 ![](../.gitbook/assets/image%20%286%29.png)
 

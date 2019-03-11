@@ -2,13 +2,13 @@
 
 Fungsi EUROCONVERT berfungsi untuk mengonversi angka ke euro, mengonversi angka dari euro ke mata uang anggota euro, atau mengonversi angka dari satu mata uang anggota euro ke mata uang lain dengan menggunakan euro sebagai perantara \(triangulasi\). Mata uang yang tersedia untuk dikonversi adalah mata uang negara-negara anggota Uni Eropa \(UE\) yang telah mengadopsi euro. Fungsi ini menggunakan nilai konversi tetap yang dibuat oleh UE.
 
-### Sintaks
+## Sintaks
 
 ```text
 EUROCONVERT(number,source,target,full_precision,triangulation_precision)
 ```
 
-| Argumen |  Fungsi |
+| Argumen | Fungsi |
 | :--- | :--- |
 | number | Nilai mata uang yang ingin Anda konversi, atau referensi ke sebuah sel yang berisi nilai tersebut. |
 | source | String tiga huruf, atau referensi ke sel yang berisi string tersebut |

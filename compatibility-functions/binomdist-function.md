@@ -44,4 +44,3 @@ BINOMDIST(number_s, trials, probability_s, cumulative)
     </tr>
   </tbody>
 </table>
-

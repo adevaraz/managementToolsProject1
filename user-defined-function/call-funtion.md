@@ -2,9 +2,9 @@
 
 Fungsi CALL berfungsi untuk memanggil prosedur dalam pustaka link dinamis atau sumber daya kode. Terdapat dua bentuk sintaks fungsi ini. Gunakan sintaks 1 hanya dengan sumber daya kode yang terdaftar sebelumnya, yang menggunakan argumen dari fungsi REGISTER. Gunakan sintaks 2 pada daftar untuk memanggil sumber daya kode.
 
-### Sintaks
+## Sintaks
 
-#### 1
+### 1
 
 ```text
 CALL(register_id,[argument1],...)
@@ -15,7 +15,7 @@ CALL(register_id,[argument1],...)
 | register\_id | nilai yang dikembalikan oleh REGISTER yang dijalankan sebelumnya atau fungsi REGISTER.ID. |
 | argument1,... | Opsional. Argumen yang akan dikirim ke prosedur. |
 
-#### 2
+### 2
 
 ```text
 CALL(module_text,procedure,type_text,[argument1],...])

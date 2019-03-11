@@ -2,7 +2,7 @@
 
 ASC berfungsi untuk mengubah huruf Bahasa Inggris atau katakana lebar penuh \(byte ganda\) di dalam string karakter menjadi karakter lebar setengah \(byte tunggal\)
 
-### Sintaks
+## Sintaks
 
 ```text
 ASC(text)

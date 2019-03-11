@@ -1,6 +1,6 @@
 # BETAINV Function
 
-Fungsi `BETAINV` mengembalikan nilai invers dari dari fungsi cumulative beta probability density. 
+Fungsi `BETAINV` mengembalikan nilai invers dari dari fungsi cumulative beta probability density.
 
 {% hint style="info" %}
 Fungsi `BETAINV` telah digantikan oleh fungsi yang lebih baik lagi, yaitu fungsi `BETA.INV`.

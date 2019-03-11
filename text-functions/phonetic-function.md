@@ -2,7 +2,7 @@
 
 PHONETIC berfungsi untuk mengekstrak karakter fonetik \(furigana\) dari string teks.
 
-### Sintaks
+## Sintaks
 
 ```text
 PHONETIC(reference)

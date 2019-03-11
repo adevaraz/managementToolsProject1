@@ -2,7 +2,7 @@
 
 `T` berfungsi untuk mengembalikan teks yang dirujuk oleh nilai.
 
-### Sintaks
+## Sintaks
 
 ```text
 T(value)
@@ -12,7 +12,7 @@ T(value)
 | :--- | :--- |
 | value | Nilai yang ingin Anda uji. |
 
-### Contoh
+## Contoh
 
 ![](../.gitbook/assets/image%20%2827%29.png)
 

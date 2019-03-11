@@ -6,7 +6,7 @@ Fungsi `TEXTJOIN` menggabungkan teks dari beberapa rentang dan/atau string, sert
 Fungsi ini hanya tersedia di Excel untuk Office 365, Excel untuk Office 365 untuk Mac, Excel 2019, Excel 2019 untuk Mac, Excel Online, Excel untuk iPad, Excel untuk iPhone, Excel untuk tablet Android, Excel untuk ponsel Android, dan Excel Mobile
 {% endhint %}
 
-### Sintaks
+## Sintaks
 
 ```text
 TEXTJOIN (delimiter, ignore_empty, text1, [text2], …)

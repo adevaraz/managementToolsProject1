@@ -9,7 +9,7 @@ sensitif huruf besar/kecil
 * FIND selalu menghitung setiap karakter, baik byte tunggal atau byte ganda sebagai 1, tak peduli apa pun pengaturan bahasa default-nya.
 * FINDB menghitung setiap karakter dengan byte ganda sebagai 2 ketika Anda mengaktifkan pengeditan bahasa yang mendukung DBCS lalu mengaturnya sebagai bahasa default. Jika tidak, FINDB menghitung setiap karakter sebagai 1.
 
-### Sintaks
+## Sintaks
 
 ```text
 FIND(find_text, within_text, [start_num])
@@ -25,7 +25,7 @@ FINDB(find_text, within_text, [start_num])
 | within\_text | Teks yang berisi teks yang ingin Anda temukan. |
 | start\_num | Opsional. Menentukan karakter yang digunakan untuk memulai pencarian. Karakter pertama dalam within\_text adalah angka karakter 1. Jika Anda menghapus start\_num, diasumsikan menjadi 1. |
 
-### Contoh
+## Contoh
 
 ![](../.gitbook/assets/image%20%285%29.png)
 

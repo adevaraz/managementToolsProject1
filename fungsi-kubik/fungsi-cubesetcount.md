@@ -1,22 +1,22 @@
 # Fungsi CUBESETCOUNT
 
-### Deskripsi
+## Deskripsi
 
 Mengembalikan jumlah item dalam sebuah kumpulan.
 
-### Sintaks
+## Sintaks
 
 CUBESETCOUNT\(set\)
 
 Sintaks fungsi CUBESETCOUNT memiliki argumen berikut:
 
-*  **Set**    Diperlukan. Sebuah string teks ekspresi Microsoft Excel yang mengevaluasi sebuah kumpulan yang ditentukan oleh fungsi CUBESET. Set juga bisa berupa fungsi CUBESET, atau referensi ke sel yang memuat fungsi CUBESET.
+* **Set**    Diperlukan. Sebuah string teks ekspresi Microsoft Excel yang mengevaluasi sebuah kumpulan yang ditentukan oleh fungsi CUBESET. Set juga bisa berupa fungsi CUBESET, atau referensi ke sel yang memuat fungsi CUBESET.
 
-### Keterangan
+## Keterangan
 
 Bila fungsi CUBESETCOUNT mengevaluasi, fungsi ini sementara akan menampilkan pesan "\#GETTING\_DATA…" dalam sel sebelum semua data diambil.
 
-### Contoh
+## Contoh
 
 =CUBESETCOUNT\(A3\)
 

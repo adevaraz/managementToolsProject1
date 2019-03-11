@@ -2,7 +2,7 @@
 
 LOWER berfungsi untuk mengonversi semua huruf besar dalam string teks ke huruf kecil.
 
-### Sintaks
+## Sintaks
 
 ```text
 LOWER(tekt)
@@ -12,7 +12,7 @@ LOWER(tekt)
 | :--- | :--- |
 | text | Teks yang ingin Anda konversi ke huruf kecil. |
 
-### Contoh
+## Contoh
 
 ![](../.gitbook/assets/image%20%2824%29.png)
 

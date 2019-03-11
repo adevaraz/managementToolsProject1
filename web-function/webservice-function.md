@@ -1,8 +1,8 @@
 # WEBSERVICE Function
 
-WEBSERVICE berfungsi untuk mengembalikan data dari layanan web di internet atau intranet. 
+WEBSERVICE berfungsi untuk mengembalikan data dari layanan web di internet atau intranet.
 
-### Sintaks
+## Sintaks
 
 > WEBSERVICE\(url\)
 

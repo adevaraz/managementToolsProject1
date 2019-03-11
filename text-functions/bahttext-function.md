@@ -2,7 +2,7 @@
 
 BAHTTEXT berfungsi untuk mengonversi angka menjadi teks bahasa Thailand, dengan format mata uang ß \(baht\)
 
-### Sintaks
+## Sintaks
 
 ```text
 BAHTTEXT(number)
@@ -12,7 +12,7 @@ BAHTTEXT(number)
 | :--- | :--- |
 | number | Angka yang ingin Anda konversi menjadi teks, atau referensi ke sel berisi angka atau rumus yang mengevaluasi ke sebuah angka. |
 
-### Contoh
+## Contoh
 
 ![](../.gitbook/assets/screenshot-294.png)
 

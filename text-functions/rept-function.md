@@ -2,7 +2,7 @@
 
 REPT berfungsi untuk mengulang teks sebanyak jumlah tertentu.
 
-### Sintaks
+## Sintaks
 
 ```text
 REPT(text, number_times)
@@ -13,7 +13,7 @@ REPT(text, number_times)
 | text | Teks yang ingin Anda ulang. |
 | number\_times | Angka positif yang menentukan berapa kali teks diulang. |
 
-### Contoh
+## Contoh
 
 ![](../.gitbook/assets/image%20%287%29.png)
 

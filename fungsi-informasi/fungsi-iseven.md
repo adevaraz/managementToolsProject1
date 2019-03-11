@@ -1,28 +1,26 @@
 # Fungsi ISEVEN
 
-### Deskripsi
+## Deskripsi
 
 Mengembalikan TRUE jika bilangannya genap, atau FALSE jika bilangannya ganjil.
 
-### Sintaks
+## Sintaks
 
 ISEVEN\(number\)
 
 Sintaks fungsi ISEVEN memiliki argumen berikut:
 
-*  **Angka**    Diperlukan. Nilai untuk menguji. Jika bilangannya bukan bilangan bulat, maka bilangan tersebut dipotong.
+* **Angka**    Diperlukan. Nilai untuk menguji. Jika bilangannya bukan bilangan bulat, maka bilangan tersebut dipotong.
 
-### Keterangan
+## Keterangan
 
 Jika angkanya nonnumerik, maka ISEVEN mengembalikan nilai kesalahan \#VALUE!.
 
-### Contoh
-
-
+## Contoh
 
 Salin contoh data di dalam tabel berikut ini dan tempel ke dalam sel A lembar kerja Excel yang baru. Agar rumus menunjukkan hasil, pilih datanya, tekan F2, lalu tekan Enter. Jika perlu, Anda bisa menyesuaikan lebar kolom untuk melihat semua data.
 
-|  **Rumus** |  **Deskripsi** |  **Hasil** |
+| **Rumus** | **Deskripsi** | **Hasil** |
 | :--- | :--- | :--- |
 | =ISEVEN\(-1\) | Menguji apakah -1 genap | FALSE |
 | =ISEVEN\(2,5\) | Memeriksa apakah 2,5 genap. Bagian desimal, ,5, terpotong, sehingga 2 diuji. | TRUE |

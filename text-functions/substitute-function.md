@@ -2,7 +2,7 @@
 
 `SUBSTITUTE`Mengganti old\_text dengan new\_text di string teks. Gunakan `SUBSTITUTE` saat Anda ingin mengganti teks tertentu dalam string teks, gunakan `REPLACE` saat Anda ingin mengganti teks apa pun yang muncul di lokasi tertentu dalam string teks.
 
-### Sintaks
+## Sintaks
 
 ```text
 SUBSTITUTE(text, old_text, new_text, [instance_num])
@@ -15,7 +15,7 @@ SUBSTITUTE(text, old_text, new_text, [instance_num])
 | new\_text | Teks yang ingin Anda gunakan untuk mengganti old\_text. |
 | instance\_num | Opsional. Menentukan kemunculan old\_text yang ingin Anda ganti dengan new\_text. Jika Anda menentukan instance\_num, hanya old\_text itu yang diganti. Jika tidak, setiap kemunculan old\_text dalam text diganti ke new\_text. |
 
-### Contoh
+## Contoh
 
 ![](../.gitbook/assets/image%20%2829%29.png)
 

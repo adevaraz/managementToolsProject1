@@ -1,10 +1,8 @@
 # REGISTER.ID Function
 
+Fungsi REGISTER.ID berfungsi untuk mengembalikan ID pendaftaran dari pustaka link dinamis \(DLL, Dynamic Link Library\) yang ditentukan atau sumber daya kode yang telah didaftarkan sebelumnya. Jika DLL atau sumber daya kode belum didaftarkan, fungsi ini mendaftarkan DLL atau sumber daya kode lalu mengembalikan ID pendaftaran.
 
-
-Fungsi REGISTER.ID berfungsi untuk mengembalikan ID pendaftaran dari pustaka link dinamis \(DLL, Dynamic Link Library\) yang ditentukan atau sumber daya kode yang telah didaftarkan sebelumnya. Jika DLL atau sumber daya kode belum didaftarkan, fungsi ini mendaftarkan DLL atau sumber daya kode lalu mengembalikan ID pendaftaran. 
-
-### Sintaks
+## Sintaks
 
 ```text
 REGISTER.ID(module_text,procedure,[type_text])
