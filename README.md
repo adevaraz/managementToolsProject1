@@ -1,19 +1,16 @@
 ---
-description: >-
-  Dalam microsoft excel, terdapat berbagai macam fungsi yang digunakan untuk
-  mengolah suatu data. Pada laman ini, kami akan membahas beberapa fungsi untuk
-  database, web, user defined function, dan teks.
+description: akan dibahas mengenai beberapa fungsi pad Microsoft Excel
 ---
 
-# Built-In Excel Function
+# Fungsi pada Microsoft Excel
 
-{% page-ref page="database-function/database-functions.md" %}
+Dibawah ini daftar mengenai fungsi excel berdasarkan Kategori nya.
 
-{% page-ref page="web-function/web-function.md" %}
+{% page-ref page="fungsi-logika-1/fungsi-logika.md" %}
 
-{% page-ref page="user-defined-function/user-defined-function.md" %}
+{% page-ref page="fungsi-tanggal-dan-waktu-1/fungsi-tanggal-dan-waktu.md" %}
 
-{% page-ref page="text-functions/text-functions.md" %}
+{% page-ref page="fungsi-kubik/fungsi-kubik.md" %}
 
-{% page-ref page="compatibility-functions/compatibility-functions.md" %}
+{% page-ref page="fungsi-informasi/fungsi-informasi.md" %}
 
