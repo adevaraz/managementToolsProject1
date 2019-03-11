@@ -20,5 +20,5 @@ NUMBERVALUE(Text, [Decimal_separator], [Group_separator ])
 
 ### Contoh
 
-![](../.gitbook/assets/image%20%2811%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 

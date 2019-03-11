@@ -29,5 +29,5 @@ REPLACEB(old_text, start_num, num_bytes, new_text)
 
 ### Contoh
 
-![](../.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%2812%29.png)
 

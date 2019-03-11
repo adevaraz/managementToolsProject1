@@ -15,7 +15,7 @@ CONCATENATE(text1, [text2], ...)
 
 ### Contoh
 
-![](../.gitbook/assets/image%20%288%29.png)
+![](../.gitbook/assets/image%20%2810%29.png)
 
 {% hint style="info" %}
 Kesalahan penulisan pada A7 seharusnya =CONCATENATE\(B2; " "; C2\)

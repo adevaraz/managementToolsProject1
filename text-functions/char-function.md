@@ -18,5 +18,5 @@ Excel Online hanya mendukung CHAR\(9\), CHAR\(10\), CHAR\(13\), dan CHAR\(32\) d
 
 ### Contoh
 
-![](../.gitbook/assets/image%20%2814%29.png)
+![](../.gitbook/assets/image%20%2819%29.png)
 

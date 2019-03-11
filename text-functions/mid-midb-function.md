@@ -23,5 +23,5 @@ MIDB(text, start_num, num_bytes)
 
 ### Contoh
 
-![](../.gitbook/assets/image%20%2817%29.png)
+![](../.gitbook/assets/image%20%2822%29.png)
 

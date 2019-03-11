@@ -19,5 +19,5 @@ CONCAT(text1, [text2],…)
 
 ### Contoh
 
-![](../.gitbook/assets/image%20%2813%29.png)
+![](../.gitbook/assets/image%20%2818%29.png)
 

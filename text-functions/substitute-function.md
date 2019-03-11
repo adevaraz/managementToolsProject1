@@ -17,5 +17,5 @@ SUBSTITUTE(text, old_text, new_text, [instance_num])
 
 ### Contoh
 
-![](../.gitbook/assets/image%20%2822%29.png)
+![](../.gitbook/assets/image%20%2829%29.png)
 

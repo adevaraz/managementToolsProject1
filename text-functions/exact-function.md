@@ -15,5 +15,5 @@ EXACT(text1, text2)
 
 ### Contoh
 
-![](../.gitbook/assets/image%20%2821%29.png)
+![](../.gitbook/assets/image%20%2828%29.png)
 

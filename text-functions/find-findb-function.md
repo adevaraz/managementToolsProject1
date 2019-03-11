@@ -27,5 +27,5 @@ FINDB(find_text, within_text, [start_num])
 
 ### Contoh
 
-![](../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image%20%285%29.png)
 
